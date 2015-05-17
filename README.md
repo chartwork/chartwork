@@ -17,7 +17,8 @@ Building Chartwork on Unix Systems
 
 To build Chartwork from sources, you need the build essentials, cmake, and Qt 5.4 or newer.
 
-As clang is currently not supported, Mac users should use gcc instead (for instance, built with homebrew).
+Chartwork is written in C++11 and requires a compatible compiler (current versions of gcc, MSVC 2013 or newer).
+Clang is currently not supported, and Mac users should use gcc instead (for instance, built with homebrew).
 
 First, get a copy of the Chartwork sources:
 
