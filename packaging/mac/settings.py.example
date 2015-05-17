@@ -1,0 +1,14 @@
+import os
+
+qtDir = "/Users/user/Qt5.4.1/5.4/clang_64"
+
+cmakePathPrefixes = \
+{
+	"dynamic": os.path.join(qtDir, "lib/cmake")
+}
+
+make = ["make", "-j5"]
+
+environment = os.environ.copy()
+environment["CC"] = "/usr/bin/gcc-4.9"
+environment["CXX"] = "/usr/bin/g++-4.9"

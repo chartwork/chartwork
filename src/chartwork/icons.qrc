@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icons/icon-grid-chart.png</file>
+        <file>icons/icon-grouped-bar-chart.png</file>
+        <file>icons/icon-histogram.png</file>
+        <file>icons/icon-line-plot.png</file>
+        <file>icons/icon-pie-chart.png</file>
+        <file>icons/icon-scatter-plot.png</file>
+        <file>icons/icon-stacked-bar-chart.png</file>
+    </qresource>
+</RCC>

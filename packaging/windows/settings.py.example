@@ -1,0 +1,20 @@
+cmakePathPrefixes = \
+{
+	"x86":
+	{
+		"dynamic": "C:\\Qt-x86\\Qt5.3.2\\5.3\\msvc2013\\lib\\cmake",
+		"static": "C:\\Qt-x86-static\\Qt5.3.2\\5.3\\lib\\cmake"
+	},
+	"amd64":
+	{
+		"dynamic": "C:\\Qt-amd64\\Qt5.3.2\\5.3\\msvc2013_64\\lib\\cmake",
+		"static": "C:\\Qt-amd64-static\\Qt5.3.2\\5.3\\lib\\cmake"
+	}
+}
+
+# When using JOM, jom.exe has to be in the PATH
+
+# make = "nmake"
+# cmakeGenerator = "NMake Makefiles"
+make = "jom"
+cmakeGenerator = "NMake Makefiles JOM"
