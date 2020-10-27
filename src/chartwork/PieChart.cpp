@@ -236,7 +236,7 @@ void PieChart::paint(QPainter &painter)
 		const QString percentageText = QString("%1").arg(m_values[i] / sumOfValues * 100.0, 0, 'f', m_precision) + QString(" %");
 
 		const QPoint textCenter = m_chartRect.center() + QPoint(m_diameter / 3 * std::cos(midAngle), -m_diameter / 3 * std::sin(midAngle));
-		const double textWidth = m_fontMetrics.width(percentageText) + 24;
+		const double textWidth = m_fontMetrics.horizontalAdvance(percentageText) + 24;
 		const double textHeight = m_fontMetrics.height() + 24;
 
 		painter.drawText(QRect(textCenter.x() - textWidth / 2,

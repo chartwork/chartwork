@@ -148,7 +148,7 @@ void Axis::paintX(QPainter &painter)
 	{
 		const double value = m_startValue + i * m_stepSize;
 
-		const int textWidth = m_fontMetrics.width(m_stepStrings[i]);
+		const int textWidth = m_fontMetrics.horizontalAdvance(m_stepStrings[i]);
 		const int x = positionForValue(value);
 
 		const int crossingPosition = positionForValue(m_crossing);
@@ -209,7 +209,7 @@ int Axis::maxStringWidth() const
 	int maxStringWidth = 0;
 
 	for (const QString &stepString : m_stepStrings)
-		maxStringWidth = std::max(maxStringWidth, m_fontMetrics.width(stepString));
+		maxStringWidth = std::max(maxStringWidth, m_fontMetrics.horizontalAdvance(stepString));
 
 	return maxStringWidth;
 }

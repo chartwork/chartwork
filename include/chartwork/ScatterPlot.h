@@ -1,7 +1,7 @@
 #ifndef __SCATTER_PLOT_H
 #define __SCATTER_PLOT_H
 
-#include <QtDesigner/QDesignerExportWidget>
+#include <QtUiPlugin/QDesignerExportWidget>
 
 #include <chartwork/XYPlot.h>
 #include <chartwork/elements/Key.h>

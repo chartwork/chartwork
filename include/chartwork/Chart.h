@@ -1,7 +1,7 @@
 #ifndef __CHART_H
 #define __CHART_H
 
-#include <QtDesigner/QDesignerExportWidget>
+#include <QtUiPlugin/QDesignerExportWidget>
 #include <QWidget>
 
 #include <chartwork/ColorPalette.h>

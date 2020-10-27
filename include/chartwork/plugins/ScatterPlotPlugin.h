@@ -1,7 +1,7 @@
 #ifndef __PLUGINS__SCATTER_PLOT_PLUGIN_H
 #define __PLUGINS__SCATTER_PLOT_PLUGIN_H
 
-#include <QDesignerCustomWidgetInterface>
+#include <QtUiPlugin/QDesignerCustomWidgetInterface>
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 //
