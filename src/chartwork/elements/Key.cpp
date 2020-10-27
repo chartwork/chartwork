@@ -125,7 +125,7 @@ int Key::maxStringWidth() const
 	int maxStringWidth = 0;
 
 	for (const QString &string : (*m_items))
-		maxStringWidth = std::max(maxStringWidth, m_fontMetrics.width(string));
+		maxStringWidth = std::max(maxStringWidth, m_fontMetrics.horizontalAdvance(string));
 
 	return maxStringWidth;
 }

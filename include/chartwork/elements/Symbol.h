@@ -4,6 +4,7 @@
 #include <QRect>
 #include <QFont>
 #include <QFontMetrics>
+#include <cmath>
 
 class QPainter;
 

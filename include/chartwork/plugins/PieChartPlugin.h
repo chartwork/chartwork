@@ -1,7 +1,7 @@
 #ifndef __PLUGINS__PIE_CHART_PLUGIN_H
 #define __PLUGINS__PIE_CHART_PLUGIN_H
 
-#include <QDesignerCustomWidgetInterface>
+#include <QtUiPlugin/QDesignerCustomWidgetInterface>
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 //

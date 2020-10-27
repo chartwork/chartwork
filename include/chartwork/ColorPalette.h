@@ -1,7 +1,7 @@
 #ifndef __COLOR_PALETTE_H
 #define __COLOR_PALETTE_H
 
-#include <QtDesigner/QDesignerExportWidget>
+#include <QtUiPlugin/QDesignerExportWidget>
 #include <QList>
 #include <QColor>
 

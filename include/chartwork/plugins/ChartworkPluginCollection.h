@@ -1,7 +1,7 @@
 #ifndef __PLUGINS__CHARTWORK_PLUGIN_COLLECTION_H
 #define __PLUGINS__CHARTWORK_PLUGIN_COLLECTION_H
 
-#include <QDesignerCustomWidgetCollectionInterface>
+#include <QtUiPlugin/QDesignerCustomWidgetCollectionInterface>
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 //

@@ -2,7 +2,7 @@
 #define __GRID_CHART_H
 
 #include <QWidget>
-#include <QtDesigner/QDesignerExportWidget>
+#include <QtUiPlugin/QDesignerExportWidget>
 
 #include <vector>
 #include <memory>
