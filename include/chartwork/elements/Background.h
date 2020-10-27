@@ -24,8 +24,12 @@ class Background
 
 		void paint(QPainter &painter);
 
+		void set_background_color(QColor new_color);
+		QColor get_background_color() const;
+
 	private:
 		QWidget *m_parent;
+		QColor background_color_;
 };
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
